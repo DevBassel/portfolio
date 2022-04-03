@@ -8,11 +8,8 @@ query('.toggle').onclick = function() {
 }
 
 
-let loader = create('div','loader');
-document.body.appendChild(loader);
 let audio = document.createElement('audio');
 const request = new XMLHttpRequest();
-  loader.style.display = 'block';
 request.open('GET', './js/data.json');
 request.onload = function() {
   // do a magic
@@ -36,16 +33,16 @@ request.onload = function() {
   }
   // audio switch
   audio.src = data.mp3[0];
-
+// contact
+query('.github').href = data.contact.GitHub;
+query('.fb').href = data.contact.fb;
+query('.ln').href = data.contact.LinkedIn;
+  query('.email').href = data.contact.email;
+  query('.cw').href = data.contact.codeWars;
 
 }
 request.send();
 
-// loder
-request.onloadend = function(){
-    loader.style.display = 'none';
-
-}
 let active = '';
 let sections = document.querySelectorAll('section');
 window.addEventListener('scroll', function() {

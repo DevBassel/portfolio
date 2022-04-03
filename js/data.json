@@ -49,16 +49,16 @@
       "name": "slider",
       "demo": "https://elegant-sinoussi-83d8d4.netlify.app/",
       "rebo": "link",
-      "dis": "slider",
+      "dis": "",
       "src": "imgs/project-7.png"
     }
     ],
   "contact": {
-    "GitHub": "link",
-    "LinkedIn": "link",
-    "fb": "link",
-    "codeWars": "link",
-    "email": "dev.basselgamal@gmail.com"
+    "GitHub": "https://github.com/Ay77aga?tab=repositories",
+    "LinkedIn": "https://www.linkedin.com/in/bassel-gamal-ba5897192",
+    "fb": "https://www.facebook.com/Bassel.Gamal.6",
+    "codeWars": "https://www.codewars.com/users/Bassel%20gamal",
+    "email": "mailto:dev.basselgamal@gmail.com"
   },
   "mp3": ["mp3/a1.mp3"]
 

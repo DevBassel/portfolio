@@ -54,15 +54,7 @@ body {
   color: var(--light);
   font-family: Arial;
 }
-.loader{
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  animation: sca 1s infinite alternate;
-  padding: 60px;
-  z-index: 9999;
-  background: orangered;
-}
+
 .container {
   margin: auto;
 }
@@ -93,7 +85,7 @@ header .menu {
 
 header .menu.active {
   height: 200px;
-  
+
 }
 
 header .menu ul {
@@ -135,10 +127,11 @@ header .container {
 
 .dots {
   height: 20px;
-  background-image: radial-gradient(var(--gray) 50% , transparent 50%, transparent 100%);
+  background-image: radial-gradient(var(--gray) 50%, transparent 50%, transparent 100%);
   background-repeat: repeat-x;
   background-size: 15px 15px;
 }
+
 .pointer {
   height: 0;
   width: 0;
@@ -172,14 +165,16 @@ header .container {
   background: var(--gray);
   transition: .5s;
 }
-.switch.active{
-    border: 2px solid var(--green);
+
+.switch.active {
+  border: 2px solid var(--green);
 }
+
 .switch.active span {
   left: calc(100% - 5px);
   transform: translate(-100%, -50%);
-   box-shadow: 0 0 5px var(--light);
- background: var(--green);
+  box-shadow: 0 0 5px var(--light);
+  background: var(--green);
 }
 
 /* Toggle menu */
@@ -389,3 +384,26 @@ header .container {
   text-align: center;
 }
 
+.social {
+  padding: 200px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.social svg {
+  width: 80px;
+  height: 80px;
+  fill: var(--gray);
+  filter: drop-shadow(0 0 7px #fff)
+}
+.cw {
+  display: block;
+  width: 100%;
+  margin: auto;
+  margin: 30px auto;
+}
+.cw img{
+  width: 100%;
+}
