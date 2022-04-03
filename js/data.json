@@ -4,32 +4,53 @@
   "skills": ["HTML", "Bootstrap", "CSS", "JavaScript"],
   "works": [
     {
-      "name": "project1",
-      "demo": "#",
+      "name": "test typing speed",
+      "demo": "https://ay77aga.github.io/test-speed-typeing/",
       "rebo": "link",
-      "dis": "description",
-      "src": "imgs/img1.png"
+      "dis": "A game to measure typing speed",
+      "src": "imgs/project-1.png"
     },
     {
-      "name": "project2",
-      "demo": "#",
+      "name": "wether app",
+      "demo": "https://ay77aga.github.io/wether-app/",
       "rebo": "link",
-      "dis": "description",
-      "src": "imgs/img2.png"
+      "dis": "Identification of the weather through your location or search",
+      "src": "imgs/project-2.png"
     },
     {
-      "name": "project3",
-      "demo": "#",
+      "name": "landing page Bondi",
+      "demo": "https://ay77aga.github.io/bonde/",
       "rebo": "link",
-      "dis": "description",
-      "src": "imgs/img3.png"
+      "dis": "landing page with bootstrap 5",
+      "src": "imgs/project-3.png"
     },
     {
-      "name": "project4",
-      "demo": "#",
+      "name": "rock paper scissors",
+      "demo": "https://ay77aga.github.io/rock-paper-scissors/",
       "rebo": "link",
-      "dis": "description",
-      "src": "imgs/img1.png"
+      "dis": "",
+      "src": "imgs/project-4.png"
+    },
+    {
+      "name": "count down",
+      "demo": "https://ay77aga.github.io/rock-paper-scissors/",
+      "rebo": "link",
+      "dis": "custom count down",
+      "src": "imgs/project-5.png"
+    },
+    {
+      "name": "e-commerce proude",
+      "demo": "https://ay77aga.github.io/E-commerce-product-page/",
+      "rebo": "link",
+      "dis": "e-commerce proude page",
+      "src": "imgs/project-6.png"
+    },
+    {
+      "name": "slider",
+      "demo": "https://elegant-sinoussi-83d8d4.netlify.app/",
+      "rebo": "link",
+      "dis": "slider",
+      "src": "imgs/project-7.png"
     }
     ],
   "contact": {
