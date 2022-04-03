@@ -1,0 +1,44 @@
+{
+  "name": "Bassel Gamal ;",
+  "bio": "I'm a front end developer ;",
+  "skills": ["HTML", "Bootstrap", "CSS", "JavaScript"],
+  "works": [
+    {
+      "name": "project1",
+      "demo": "#",
+      "rebo": "link",
+      "dis": "description",
+      "src": "imgs/img1.png"
+    },
+    {
+      "name": "project2",
+      "demo": "#",
+      "rebo": "link",
+      "dis": "description",
+      "src": "imgs/img2.png"
+    },
+    {
+      "name": "project3",
+      "demo": "#",
+      "rebo": "link",
+      "dis": "description",
+      "src": "imgs/img3.png"
+    },
+    {
+      "name": "project4",
+      "demo": "#",
+      "rebo": "link",
+      "dis": "description",
+      "src": "imgs/img1.png"
+    }
+    ],
+  "contact": {
+    "GitHub": "link",
+    "LinkedIn": "link",
+    "fb": "link",
+    "codeWars": "link",
+    "email": "dev.basselgamal@gmail.com"
+  },
+  "mp3": ["mp3/a1.mp3"]
+
+}
