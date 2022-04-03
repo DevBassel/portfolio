@@ -54,7 +54,15 @@ body {
   color: var(--light);
   font-family: Arial;
 }
-
+.loader{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  animation: sca 1s infinite alternate;
+  padding: 60px;
+  z-index: 9999;
+  background: orangered;
+}
 .container {
   margin: auto;
 }

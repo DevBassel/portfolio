@@ -1,4 +1,4 @@
-import { query, renderWorks } from './fun.js';
+import { query, renderWorks,create } from './fun.js';
 //  #######################
 
 // toggel menu
@@ -6,9 +6,13 @@ query('.toggle').onclick = function() {
   this.classList.toggle('active');
   query('.menu').classList.toggle('active');
 }
-let audio = document.createElement('audio');
 
+
+let loader = create('div','loader');
+document.body.appendChild(loader);
+let audio = document.createElement('audio');
 const request = new XMLHttpRequest();
+  loader.style.display = 'block';
 request.open('GET', './js/data.json');
 request.onload = function() {
   // do a magic
@@ -31,12 +35,17 @@ request.onload = function() {
     query(`.card.c${i} .dis`).textContent = data.works[i].dis;
   }
   // audio switch
-      audio.src = data.mp3[0];
+  audio.src = data.mp3[0];
 
 
 }
 request.send();
 
+// loder
+request.onloadend = function(){
+    loader.style.display = 'none';
+
+}
 let active = '';
 let sections = document.querySelectorAll('section');
 window.addEventListener('scroll', function() {
