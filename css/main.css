@@ -391,26 +391,66 @@ header .container {
   flex-flow: row wrap;
 }
 
-.social svg  {
+.social svg {
   width: 80px;
   height: 80px;
   fill: var(--gray);
-  filter: drop-shadow(0 0 7px #fff)
+  transition: .3s;
+  box-shadow: 0 0 8px 4px #fff inset;
+  border-radius: 1rem;
 }
-.social a{
+
+.social a {
   transition: .3s;
   padding-top: 20px;
+  position: relative;
 }
-.social a:hover{
-  transform:  translateY(-25px);
+
+.social a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  padding: 10px;
+  transform: translate(-50%, 50%);
+  background: rgba(0, 0, 0, .5);
+  font-weight: bold;
+  color: var(--green);
+  border-radius: 1.5rem;
+  opacity: 0;
+  border: 1px solid #fff;
+  transition: .5s;
 }
+
+.social span::before {
+  content: "";
+  border: 10px solid transparent;
+  border-top-color:var(--light);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  z-index: 5;
+}
+
+.social a:hover span {
+  opacity: 1;
+  transform: translate(-50%, -80%);
+}
+.social a:hover svg{
+    box-shadow: 0 0 8px 4px var(--green) inset;
+
+}
+.social a:hover {
+  transform: translateY(-20px);
+}
+
 .cw {
   display: block;
   width: 90%;
   margin: auto;
-  margin: 30px auto;
+  margin: 50px auto;
 }
 
-.cw img{
+.cw img {
   width: 100%;
 }
