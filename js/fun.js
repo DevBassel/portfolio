@@ -19,6 +19,7 @@ function renderWorks(count) {
     let div = create('div');
     let h2 = create('h2', 'name');
     let link = create('a', 'demo');
+    link.target = '_blank'; 
     link.textContent = 'demo';
     let p = create('p', 'dis');
     card.appendChild(imgd);
@@ -30,7 +31,6 @@ function renderWorks(count) {
     query('.works .container').appendChild(card);
   }
 }
-document.querySelectorAll('a').forEach(a => a.setAttribute('target', '_blank'));
 
 export {
   query,
