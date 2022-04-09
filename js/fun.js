@@ -12,14 +12,14 @@ function renderWorks(count) {
   for (let i = 0; i < count; i++) {
     let card = create('div', `card c${i}`);
     let img = create('img');
-    let imgd = create('div','img');
+    img.alt = 'project img';
+    let imgd = create('div', 'img');
     imgd.appendChild(img);
     let info = create('div', 'info');
     let div = create('div');
     let h2 = create('h2', 'name');
     let link = create('a', 'demo');
     link.textContent = 'demo';
-    link.setAttribute('target','_blank')
     let p = create('p', 'dis');
     card.appendChild(imgd);
     card.appendChild(info);
@@ -30,7 +30,7 @@ function renderWorks(count) {
     query('.works .container').appendChild(card);
   }
 }
-
+document.querySelectorAll('a').forEach(a => a.setAttribute('target', '_blank'));
 
 export {
   query,

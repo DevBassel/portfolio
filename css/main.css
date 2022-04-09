@@ -392,18 +392,26 @@ header .container {
   flex-flow: row wrap;
 }
 
-.social svg {
+.social svg  {
   width: 80px;
   height: 80px;
   fill: var(--gray);
   filter: drop-shadow(0 0 7px #fff)
 }
+.social a{
+  transition: .3s;
+  padding-top: 20px;
+}
+.social a:hover{
+  transform:  translateY(-25px);
+}
 .cw {
   display: block;
-  width: 100%;
+  width: 90%;
   margin: auto;
   margin: 30px auto;
 }
+
 .cw img{
   width: 100%;
 }
