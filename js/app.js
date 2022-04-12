@@ -1,4 +1,4 @@
-import { query, renderWorks,create } from './fun.js';
+import { query, renderWorks, create } from './fun.js';
 //  #######################
 
 // toggel menu
@@ -10,7 +10,6 @@ query('.toggle').onclick = function() {
 
 let audio = document.createElement('audio');
 const request = new XMLHttpRequest();
-request.open('GET', './js/data.json');
 request.onload = function() {
   // do a magic
   const data = JSON.parse(request.responseText);
@@ -33,14 +32,15 @@ request.onload = function() {
   }
   // audio switch
   audio.src = data.mp3[0];
-// contact
-query('.github').href = data.contact.GitHub;
-query('.fb').href = data.contact.fb;
-query('.ln').href = data.contact.LinkedIn;
+  // contact
+  query('.github').href = data.contact.GitHub;
+  query('.fb').href = data.contact.fb;
+  query('.ln').href = data.contact.LinkedIn;
   query('.email').href = data.contact.email;
   query('.cw').href = data.contact.codeWars;
 
 }
+request.open('GET', './js/data.json',true);
 request.send();
 
 let active = '';
