@@ -51,7 +51,32 @@
       "rebo": "link",
       "dis": "",
       "src": "imgs/project-7.png"
+    },
+    {
+      "name": "Kasper Temple",
+      "demo": "https://ay77aga.github.io/Kasper/",
+      "dis": "Landing Page",
+      "src": "imgs/project-8.png"
+    },
+    {
+      "name": "fylo-dark-theme-landing-page",
+      "demo": "https://ay77aga.github.io/fylo-dark-theme-landing-page-master/",
+      "dis": "Landing page",
+      "src": "imgs/project-9.png"
+    },
+    {
+      "name": "blogr-landing-page",
+      "demo": "https://ay77aga.github.io/blogr-landing-page-main/",
+      "dis": "Landing Page",
+      "src": "imgs/project-10.png"
+    },
+    {
+      "name": "bookmark-landing-page",
+      "demo": "https://ay77aga.github.io/bookmark-landing-page-master/",
+      "dis": "Landing page",
+      "src": "imgs/project-11.png"
     }
+
     ],
   "contact": {
     "GitHub": "https://github.com/Ay77aga?tab=repositories",
