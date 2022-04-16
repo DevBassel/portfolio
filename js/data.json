@@ -75,7 +75,14 @@
       "demo": "https://ay77aga.github.io/bookmark-landing-page-master/",
       "dis": "Landing page",
       "src": "imgs/project-11.png"
+    },
+    {
+      "name": "random quote",
+      "demo": "https://ay77aga.github.io/random-Quote/",
+      "dis": "random quote from api",
+      "src": "imgs/project-12.png"
     }
+
 
     ],
   "contact": {
