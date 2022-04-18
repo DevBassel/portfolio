@@ -1,6 +1,8 @@
 {
   "name": "Bassel Gamal ;",
   "bio": "I'm a front end developer ;",
+  "from": "i'm from Egypt ;",
+  "age": "20 Years old ;",
   "skills": ["HTML", "Bootstrap", "CSS", "JavaScript"],
   "works": [
     {
@@ -16,6 +18,12 @@
       "rebo": "link",
       "dis": "Identification of the weather through your location or search",
       "src": "imgs/project-2.png"
+    },
+    {
+      "name": "Quiz App",
+      "demo": "https://ay77aga.github.io/Quiz-App/",
+      "dis": "Quiz App",
+      "src": "imgs/project-13.png"
     },
     {
       "name": "landing page Bondi",
@@ -82,6 +90,7 @@
       "dis": "random quote from api",
       "src": "imgs/project-12.png"
     }
+
 
 
     ],

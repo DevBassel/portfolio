@@ -16,6 +16,8 @@ request.onload = function() {
   console.log(data);
   // render my data
   query('.name').textContent = data.name;
+  query('.age').textContent = data.age;
+  query('.from').textContent = data.from;
   query('.bio').textContent = data.bio;
   let skills = document.querySelectorAll('.skills .data span');
   for (let i in data.skills) {
@@ -40,7 +42,7 @@ request.onload = function() {
   query('.cw').href = data.contact.codeWars;
 
 }
-request.open('GET', './js/data.json',true);
+request.open('GET', './js/data.json', true);
 request.send();
 
 let active = '';

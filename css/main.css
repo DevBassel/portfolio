@@ -256,7 +256,9 @@ header .container {
   height: 2px;
   width: 60%;
 }
-
+.about p{
+line-height: 1.8;
+}
 .skills {
   border: 1px solid #fff;
   width: fit-content;
