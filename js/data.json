@@ -6,6 +6,14 @@
   "skills": ["HTML", "Bootstrap", "CSS", "JavaScript"],
   "works": [
     {
+      "name": "online Store",
+      "demo": "https://ay77aga.github.io/Online-store/",
+      "rebo": "link",
+      "dis": "online store with vanilla JavaScript and bootstrap",
+      "src": "imgs/project-14.jpg"
+
+    },
+    {
       "name": "test typing speed",
       "demo": "https://ay77aga.github.io/test-speed-typeing/",
       "rebo": "link",
