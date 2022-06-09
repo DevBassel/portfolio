@@ -7,7 +7,7 @@
   "works": [
     {
       "name": "online Store",
-      "demo": "https://ay77aga.github.io/Online-store/",
+      "demo": "https://DevBassel.github.io/Online-store/",
       "rebo": "link",
       "dis": "online store with vanilla JavaScript and bootstrap",
       "src": "imgs/project-14.jpg"
@@ -15,48 +15,48 @@
     },
     {
       "name": "test typing speed",
-      "demo": "https://ay77aga.github.io/test-speed-typeing/",
+      "demo": "https://DevBassel.github.io/test-speed-typeing/",
       "rebo": "link",
       "dis": "A game to measure typing speed",
       "src": "imgs/project-1.png"
     },
     {
       "name": "wether app",
-      "demo": "https://ay77aga.github.io/wether-app/",
+      "demo": "https://DevBassel.github.io/wether-app/",
       "rebo": "link",
       "dis": "Identification of the weather through your location or search",
       "src": "imgs/project-2.png"
     },
     {
       "name": "Quiz App",
-      "demo": "https://ay77aga.github.io/Quiz-App/",
+      "demo": "https://DevBassel.github.io/Quiz-App/",
       "dis": "Quiz App",
       "src": "imgs/project-13.png"
     },
     {
       "name": "landing page Bondi",
-      "demo": "https://ay77aga.github.io/bonde/",
+      "demo": "https://DevBassel.github.io/bonde/",
       "rebo": "link",
       "dis": "landing page with bootstrap 5",
       "src": "imgs/project-3.png"
     },
     {
       "name": "rock paper scissors",
-      "demo": "https://ay77aga.github.io/rock-paper-scissors/",
+      "demo": "https://DevBassel.github.io/rock-paper-scissors/",
       "rebo": "link",
       "dis": "",
       "src": "imgs/project-4.png"
     },
     {
       "name": "count down",
-      "demo": "https://ay77aga.github.io/rock-paper-scissors/",
+      "demo": "https://DevBassel.github.io/rock-paper-scissors/",
       "rebo": "link",
       "dis": "custom count down",
       "src": "imgs/project-5.png"
     },
     {
       "name": "e-commerce proude",
-      "demo": "https://ay77aga.github.io/E-commerce-product-page/",
+      "demo": "https://DevBassel.github.io/E-commerce-product-page/",
       "rebo": "link",
       "dis": "e-commerce proude page",
       "src": "imgs/project-6.png"
@@ -70,31 +70,31 @@
     },
     {
       "name": "Kasper Temple",
-      "demo": "https://ay77aga.github.io/Kasper/",
+      "demo": "https://DevBassel.github.io/Kasper/",
       "dis": "Landing Page",
       "src": "imgs/project-8.png"
     },
     {
       "name": "fylo-dark-theme-landing-page",
-      "demo": "https://ay77aga.github.io/fylo-dark-theme-landing-page-master/",
+      "demo": "https://DevBassel.github.io/fylo-dark-theme-landing-page-master/",
       "dis": "Landing page",
       "src": "imgs/project-9.png"
     },
     {
       "name": "blogr-landing-page",
-      "demo": "https://ay77aga.github.io/blogr-landing-page-main/",
+      "demo": "https://DevBassel.github.io/blogr-landing-page-main/",
       "dis": "Landing Page",
       "src": "imgs/project-10.png"
     },
     {
       "name": "bookmark-landing-page",
-      "demo": "https://ay77aga.github.io/bookmark-landing-page-master/",
+      "demo": "https://DevBassel.github.io/bookmark-landing-page-master/",
       "dis": "Landing page",
       "src": "imgs/project-11.png"
     },
     {
       "name": "random quote",
-      "demo": "https://ay77aga.github.io/random-Quote/",
+      "demo": "https://DevBassel.github.io/random-Quote/",
       "dis": "random quote from api",
       "src": "imgs/project-12.png"
     }
@@ -103,7 +103,7 @@
 
     ],
   "contact": {
-    "GitHub": "https://github.com/Ay77aga?tab=repositories",
+    "GitHub": "https://github.com/DevBassel?tab=repositories",
     "LinkedIn": "https://www.linkedin.com/in/bassel-gamal-ba5897192",
     "fb": "https://www.facebook.com/Bassel.Gamal.6",
     "codeWars": "https://www.codewars.com/users/Bassel%20gamal",
