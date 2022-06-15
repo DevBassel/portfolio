@@ -13,7 +13,7 @@ const request = new XMLHttpRequest();
 request.onload = function() {
   // do a magic
   const data = JSON.parse(request.responseText);
-  console.log(data);
+  // console.log(data);
   // render my data
   query('.name').textContent = data.name;
   query('.age').textContent = data.age;
@@ -42,7 +42,7 @@ request.onload = function() {
   query('.cw').href = data.contact.codeWars;
 
 }
-request.open('GET', './js/data.json', true);
+request.open('GET', './js/data.json');
 request.send();
 
 let active = '';
