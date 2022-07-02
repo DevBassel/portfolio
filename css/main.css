@@ -333,10 +333,11 @@ line-height: 1.8;
 }
 
 .works .card {
-  border-radius: 6px;
+  border-radius: 16px;
   box-shadow: 0 0 8px 2px rgba(255, 255, 255, 0.22);
   overflow: hidden;
   transition: .3s;
+  border: 2px solid var(--light);
 }
 .works .card:hover{
   transform: scale(1.05);
@@ -359,7 +360,7 @@ line-height: 1.8;
 .works .card .info {
   background: var(--gray);
   padding: 10px;
-  border: 2px solid var(--light);
+  border-top: 2px solid var(--light);
 }
 
 .works .card .info>div {
