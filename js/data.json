@@ -14,6 +14,13 @@
 
     },
     {
+      "name": "memory game",
+      "demo": "https://devbassel.github.io/memory-game/",
+      "rebo": "link",
+      "dis": "Memory game with HTML , CSS and JS",
+      "src": "imgs/project-16.jpg"
+    },
+    {
       "name": "test typing speed",
       "demo": "https://DevBassel.github.io/test-speed-typeing/",
       "rebo": "link",
