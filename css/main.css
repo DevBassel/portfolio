@@ -256,9 +256,11 @@ header .container {
   height: 2px;
   width: 60%;
 }
-.about p{
-line-height: 1.8;
+
+.about p {
+  line-height: 1.8;
 }
+
 .skills {
   border: 1px solid #fff;
   width: fit-content;
@@ -321,6 +323,56 @@ line-height: 1.8;
   bottom: 0;
   transform: translate(-50%, 50%);
 }
+.filter{
+  width: 330px;
+  margin: auto;
+}
+.filter ul {
+  list-style: none;
+  background: var(--gray);
+  padding: 10px;
+  white-space: nowrap;
+  overflow: auto;
+  border-radius: 2rem;
+  margin: 30px auto;
+  border: 2px solid var(--green);
+}
+
+.filter ul li {
+  display: inline-flex;
+  margin: auto 5px;
+  background: var(--dark);
+  padding: 5px 20px;
+  border: 1px solid #fff;
+  border-radius: 1rem;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.works .active {
+     display: block !important;
+ animation: active 1s both;
+}
+
+@keyframes active {
+  0% {
+    transform: scale(0);
+  }
+
+  25% {
+    transform: scale(.020, 1)
+  }
+
+  50% {
+    transform: scale(1, .20);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
 
 .works {
   padding: 60px 15px;
@@ -338,10 +390,13 @@ line-height: 1.8;
   overflow: hidden;
   transition: .3s;
   border: 2px solid var(--light);
+  display: none;
 }
-.works .card:hover{
+
+.works .card:hover {
   transform: scale(1.05);
 }
+
 .works .card img {
   width: 100%;
   height: 100%;
@@ -383,7 +438,6 @@ line-height: 1.8;
   font-size: 13px;
   line-height: 1.5;
   padding: 5px 15px;
-  text-align: center;
 }
 
 .social {
@@ -392,6 +446,11 @@ line-height: 1.8;
   align-items: center;
   justify-content: space-around;
   flex-flow: row wrap;
+}
+
+p::after,
+h2::after {
+  content: " ;";
 }
 
 .social svg {

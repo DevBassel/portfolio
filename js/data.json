@@ -1,8 +1,8 @@
 {
-  "name": "Bassel Gamal ;",
-  "bio": "I'm a front end developer ;",
-  "from": "i'm from Egypt ;",
-  "age": "20 Years old ;",
+  "name": "Bassel Gamal ",
+  "bio": "I'm a front end developer ",
+  "from": "i'm from Egypt   ",
+  "age": "2002",
   "skills": ["HTML", "Bootstrap", "CSS", "JavaScript"],
   "works": [
     {
@@ -10,106 +10,121 @@
       "demo": "https://DevBassel.github.io/Online-store/",
       "rebo": "link",
       "dis": "online store with vanilla JavaScript and bootstrap",
-      "src": "imgs/project-14.jpg"
-
+      "src": "imgs/project-14.jpg",
+      "filter": "e-commerce"
     },
     {
       "name": "memory game",
       "demo": "https://devbassel.github.io/memory-game/",
       "rebo": "link",
       "dis": "Memory game with HTML , CSS and JS",
-      "src": "imgs/project-16.jpg"
+      "src": "imgs/project-16.jpg",
+      "filter": "game"
     },
     {
       "name": "test typing speed",
       "demo": "https://DevBassel.github.io/test-speed-typeing/",
       "rebo": "link",
       "dis": "A game to measure typing speed",
-      "src": "imgs/project-1.png"
-    },
+      "src": "imgs/project-1.png",
+      "filter": "game"
+},
     {
       "name": "wether app",
       "demo": "https://DevBassel.github.io/wether-app/",
       "rebo": "link",
       "dis": "Identification of the weather through your location or search",
-      "src": "imgs/project-2.png"
+      "src": "imgs/project-2.png",
+      "filter": "app"
     },
     {
       "name": "Quiz App",
       "demo": "https://DevBassel.github.io/Quiz-App/",
       "dis": "Quiz App",
-      "src": "imgs/project-13.png"
+      "src": "imgs/project-13.png",
+      "filter": "app"
     },
     {
       "name": "Stop Watch",
       "demo": "https://devbassel.github.io/Stop-Watch/",
       "dis": "Stop Watch",
-      "src": "imgs/project-15.jpg"
+      "src": "imgs/project-15.jpg",
+      "filter": "app"
     },
     {
       "name": "landing page Bondi",
       "demo": "https://DevBassel.github.io/bonde/",
       "rebo": "link",
       "dis": "landing page with bootstrap 5",
-      "src": "imgs/project-3.png"
+      "src": "imgs/project-3.png",
+      "filter": "landing"
     },
     {
       "name": "rock paper scissors",
       "demo": "https://DevBassel.github.io/rock-paper-scissors/",
       "rebo": "link",
       "dis": "",
-      "src": "imgs/project-4.png"
+      "src": "imgs/project-4.png",
+      "filter": "game"
     },
     {
       "name": "count down",
       "demo": "https://DevBassel.github.io/rock-paper-scissors/",
       "rebo": "link",
       "dis": "custom count down",
-      "src": "imgs/project-5.png"
+      "src": "imgs/project-5.png",
+      "filter": "app"
     },
     {
       "name": "e-commerce proude",
       "demo": "https://DevBassel.github.io/E-commerce-product-page/",
       "rebo": "link",
       "dis": "e-commerce proude page",
-      "src": "imgs/project-6.png"
+      "src": "imgs/project-6.png",
+      "filter": "e-commerce"
     },
     {
       "name": "slider",
       "demo": "https://elegant-sinoussi-83d8d4.netlify.app/",
       "rebo": "link",
       "dis": "",
-      "src": "imgs/project-7.png"
+      "src": "imgs/project-7.png",
+      "filter": "app"
     },
     {
       "name": "Kasper Temple",
       "demo": "https://DevBassel.github.io/Kasper/",
       "dis": "Landing Page",
-      "src": "imgs/project-8.png"
+      "src": "imgs/project-8.png",
+      "filter": "landing"
     },
     {
       "name": "fylo-dark-theme-landing-page",
       "demo": "https://DevBassel.github.io/fylo-dark-theme-landing-page-master/",
       "dis": "Landing page",
-      "src": "imgs/project-9.png"
+      "src": "imgs/project-9.png",
+      "filter": "landing"
     },
     {
       "name": "blogr-landing-page",
       "demo": "https://DevBassel.github.io/blogr-landing-page-main/",
       "dis": "Landing Page",
-      "src": "imgs/project-10.png"
+      "src": "imgs/project-10.png",
+      "filter": "landing"
     },
     {
       "name": "bookmark-landing-page",
       "demo": "https://DevBassel.github.io/bookmark-landing-page-master/",
       "dis": "Landing page",
-      "src": "imgs/project-11.png"
+      "src": "imgs/project-11.png",
+      "filter": "landing"
     },
     {
       "name": "random quote",
       "demo": "https://DevBassel.github.io/random-Quote/",
       "dis": "random quote from api",
-      "src": "imgs/project-12.png"
+      "src": "imgs/project-12.png",
+      "filter": "app"
     }
 
 

@@ -1,39 +1,48 @@
-function query(el) {
-  return document.querySelector(el);
+const query = (el) => document.querySelector(el);
+
+
+function renderWorks({ src, name, ref, dis, filter }) {
+  let card = document.createElement('div');
+  card.className = `card ${filter} all`;
+  card.innerHTML = `
+      <div class="img">
+        <img src=${src} alt="project img">
+      </div>
+       <div class="info">
+        <div>
+          <h2 class="name">${name}</h2>
+          <a href=${ref} class="demo" target="_blank">demo</a>
+        </div>
+        <p class="dis">${dis}</p>
+      </div>
+    `;
+  query('.works .container').appendChild(card);
+}
+let category = new Set();
+category.add('all')
+
+function setCategory(name) {
+  let ul = document.querySelector('.filter ul');
+  let li = document.createElement('li');
+  li.textContent = name;
+  li.setAttribute('data-filter', name);
+  ul.appendChild(li);
+  filter(li);
 }
 
-function create(element, className = '') {
-  let el = document.createElement(element);
-  el.className = className;
-  return el;
-}
-
-function renderWorks(count) {
-  for (let i = 0; i < count; i++) {
-    let card = create('div', `card c${i}`);
-    let img = create('img');
-    img.alt = 'project img';
-    let imgd = create('div', 'img');
-    imgd.appendChild(img);
-    let info = create('div', 'info');
-    let div = create('div');
-    let h2 = create('h2', 'name');
-    let link = create('a', 'demo');
-    link.target = '_blank'; 
-    link.textContent = 'demo';
-    let p = create('p', 'dis');
-    card.appendChild(imgd);
-    card.appendChild(info);
-    info.appendChild(div);
-    div.appendChild(h2);
-    div.appendChild(link);
-    info.appendChild(p);
-    query('.works .container').appendChild(card);
-  }
+function filter(element) {
+  element.addEventListener('click', function() {
+    document.querySelectorAll('.all').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll(`.${this.dataset.filter}`)
+      .forEach((el,i) => {
+        setTimeout(() => el.classList.add('active'), 300 * i);
+      });
+  });
 }
 
 export {
   query,
-  create,
-  renderWorks
+  renderWorks,
+  category,
+  setCategory,
 }

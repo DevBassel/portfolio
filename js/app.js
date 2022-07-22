@@ -1,6 +1,5 @@
-import { query, renderWorks, create } from './fun.js';
+import { query, renderWorks, category,setCategory } from './fun.js';
 //  #######################
-
 // toggel menu
 query('.toggle').onclick = function() {
   this.classList.toggle('active');
@@ -11,36 +10,44 @@ query('.toggle').onclick = function() {
 let audio = document.createElement('audio');
 const request = new XMLHttpRequest();
 request.onload = function() {
-  // do a magic
-  const data = JSON.parse(request.responseText);
-  // console.log(data);
-  // render my data
-  query('.name').textContent = data.name;
-  query('.age').textContent = data.age;
-  query('.from').textContent = data.from;
-  query('.bio').textContent = data.bio;
-  let skills = document.querySelectorAll('.skills .data span');
-  for (let i in data.skills) {
-    skills[i].textContent = data.skills[i];
-  }
+  if (request.readyState === 4 && request.status === 200) {
 
-  // render works data
-  renderWorks(data.works.length);
-  for (let i in data.works) {
-    query(`.card.c${i} img`).src = data.works[i].src
-    query(`.card.c${i} .name`).textContent = data.works[i].name;
-    query(`.card.c${i} .demo`).href = data.works[i].demo;
-    query(`.card.c${i} .dis`).textContent = data.works[i].dis;
-  }
-  // audio switch
-  audio.src = data.mp3[0];
-  // contact
-  query('.github').href = data.contact.GitHub;
-  query('.fb').href = data.contact.fb;
-  query('.ln').href = data.contact.LinkedIn;
-  query('.email').href = data.contact.email;
-  query('.cw').href = data.contact.codeWars;
+    // do a magic
+    const data = JSON.parse(request.responseText);
+    // console.log(data);
+    // render my data
 
+    query('.name').textContent = data.name;
+    query('.age').textContent = `${new Date().getFullYear() - +data.age} Years old`;
+    query('.from').textContent = data.from;
+    query('.bio').textContent = data.bio;
+    let skills = document.querySelectorAll('.skills .data span');
+    for (let i in data.skills) {
+      skills[i].textContent = data.skills[i];
+    }
+
+    // render works 
+    for (let work of data.works) {
+      renderWorks({
+        src: work.src,
+        name: work.name,
+        ref: work.demo,
+        dis: work.dis,
+        filter: work.filter,
+      });
+      category.add(work.filter)
+    }
+    category.forEach(el => setCategory(el))
+    // audio switch
+    audio.src = data.mp3[0];
+    // contact
+    query('.github').href = data.contact.GitHub;
+    query('.fb').href = data.contact.fb;
+    query('.ln').href = data.contact.LinkedIn;
+    query('.email').href = data.contact.email;
+    query('.cw').href = data.contact.codeWars;
+    // query('.loader').remove();
+  } // end if
 }
 request.open('GET', './js/data.json');
 request.send();
