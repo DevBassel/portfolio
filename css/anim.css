@@ -95,3 +95,20 @@
     opacity: 0;
   }
 }
+@keyframes active {
+  0% {
+    transform: scale(0);
+  }
+
+  25% {
+    transform: scale(.020, 1)
+  }
+
+  50% {
+    transform: scale(1, .20);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}

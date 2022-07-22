@@ -356,23 +356,6 @@ header .container {
  animation: active 1s both;
 }
 
-@keyframes active {
-  0% {
-    transform: scale(0);
-  }
-
-  25% {
-    transform: scale(.020, 1)
-  }
-
-  50% {
-    transform: scale(1, .20);
-  }
-
-  100% {
-    transform: scale(1, 1);
-  }
-}
 
 .works {
   padding: 60px 15px;
