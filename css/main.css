@@ -376,9 +376,6 @@ header .container {
   display: none;
 }
 
-.works .card:hover {
-  transform: scale(1.05);
-}
 
 .works .card img {
   width: 100%;

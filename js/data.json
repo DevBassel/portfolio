@@ -21,6 +21,15 @@
       "src": "imgs/project-16.jpg",
       "filter": "game"
     },
+        {
+      "name": "tic tac toe",
+      "demo": "https://devbassel.github.io/X_O-Game-/",
+      "rebo": "link",
+      "dis": "A X O Game",
+      "src": "imgs/project-17.jpg",
+      "filter": "game"
+},
+
     {
       "name": "test typing speed",
       "demo": "https://DevBassel.github.io/test-speed-typeing/",
