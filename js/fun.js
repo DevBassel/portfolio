@@ -69,7 +69,7 @@ function renderSkills(data) {
   let skills = query(".skills");
   for (let i in data) {
     let li = document.createElement("li");
-    li.innerHTML = `<img src="./imgs/svg/${data[i]}.svg" alt="" loading="lazy"/>`;
+    li.innerHTML = `<img src="./imgs/svg/${data[i]}.svg" alt="skill" loading="lazy"/>`;
     skills.appendChild(li);
     // console.log(data[i]);
   }

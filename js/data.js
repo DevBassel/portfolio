@@ -7,6 +7,7 @@ const data = {
   },
   skills: [
     "html",
+    "ts",
     "bs",
     "css",
     "git",
