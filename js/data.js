@@ -9,6 +9,7 @@ const data = {
     "html",
     "ts",
     "bs",
+    "tilwind",
     "css",
     "git",
     "gh",

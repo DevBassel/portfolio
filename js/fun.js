@@ -60,7 +60,7 @@ function renderInfo(data) {
         <p class="bio">${data.bio}</p>
         <p class="from">${data.from}</p>
         <p class="age">${new Date().getFullYear() - +data.age} Years old</p>
-        <a class="cv" href="./resume.pdf" download>Download My CV</a>
+        <a class="cv" href="./Bassel-gamal.pdf" download>Download My CV</a>
         `;
 
   query(".info").innerHTML = html;
